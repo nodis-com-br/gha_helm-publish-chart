@@ -6,4 +6,4 @@ helm plugin install https://github.com/chartmuseum/helm-push.git
 
 helm package .
 
-helm push .
+helm push . chartmuseum
